@@ -6,11 +6,11 @@ public class Task2 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your weight : ");
         float weight = scanner.nextFloat();
-        System.out.println("Enter your height in METERS using COMMA : ");
+        System.out.println("Enter your height in Centimeters : ");
         float height = scanner.nextFloat();
-        float bmi = (float) (weight / Math.pow(height,2));
+        float bmi = (float) (weight / Math.pow(height/100,2));
         if(bmi < 16.00){
-            System.out.printf("BMI INDEX : %.2f\n",bmi);
+            System.out.printf("BMI jkfsjdlfINDEX : %.2f\n",bmi);
             System.out.println("RESULT   : Starvation");
         } else if(bmi >= 16.00 && bmi < 17){
             System.out.printf("BMI INDEX : %.2f\n",bmi);
