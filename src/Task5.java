@@ -9,9 +9,6 @@ public class Task5 {
             int n = random.nextInt(1,101);
             if(n < min) min = n;
             if(n > max) max = n;
-            System.out.println("Current num : " + n);
-            System.out.println("Current min : " + min);
-            System.out.println("Current max : " + max);
         }
 
     }
